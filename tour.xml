@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <krpano version="1.21" title="SCH.">
 
 
@@ -161,7 +161,7 @@
 		</image>
 
 		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="-72.470" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="7.04,5.3,120.0" />
-		<hotspot name="scene_pbrea_de_servipno" style="hs_circle" ath="89.791" atv="4.993" linkedscene="scene_pbrea_de_servipno" tag="�rea de Servi�o" linkedscene_lookat="181.14,6.19,120.0" />
+		<hotspot name="scene_pbrea_de_servipno" style="hs_circle" ath="89.791" atv="4.993" linkedscene="scene_pbrea_de_servipno" tag="Área de Serviço" linkedscene_lookat="181.14,6.19,120.0" />
 
 	</scene>
 
@@ -319,7 +319,7 @@
 
 	</scene>
 
-	<scene name="scene_pbrea_de_servipno" title="�rea de servi�o" onstart="" thumburl="panos/pbrea_de_servipno.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+	<scene name="scene_pbrea_de_servipno" title="Área de Serviço" onstart="" thumburl="panos/pbrea_de_servipno.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="true" />
 
