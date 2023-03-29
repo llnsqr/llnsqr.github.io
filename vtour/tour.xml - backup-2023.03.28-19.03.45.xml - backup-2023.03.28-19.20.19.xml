@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<krpano version="1.21" title="SCH.">
+
+
+
+<include url="plugins/circle_hotspots.xml"/>
+
+	<include url="skin/vtourskin.xml" />
+	
+	<layer name="logo" type="image" url="skin/logo_sch_2023.jpg" align="rightop" x="10" y="10" scale="0.2" alpha="0.5" keep="true">
+		
+	</layer>
+	
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="true"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.5"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	
+
+	
+	<scene name="scene_1-Hall" title="Hall" onstart="" thumburl="panos/1-Hall.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="76.539" vlookat="6.091" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/1-Hall.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/1-Hall.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="scene_lavabo" style="hs_circle" ath="146.118" atv="5" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_lookat="0.0,0.0,120.0" />
+		<hotspot name="scene_cozinha" style="hs_circle" ath="97.321" atv="4.682" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="91.03,3.13,120.0" />
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="66.209" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="2.71,-1.12,120.0" />
+
+	</scene>
+
+	<scene name="scene_Cozinha" title="Cozinha" onstart="" thumburl="panos/Cozinha.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="216.407" vlookat="19.200" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Cozinha.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Cozinha.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="-72.470" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="7.04,5.3,120.0" />
+		<hotspot name="scene_pbrea_de_servipno" style="hs_circle" ath="89.791" atv="4.993" linkedscene="scene_pbrea_de_servipno" tag="�rea de Servi�o" linkedscene_lookat="181.14,6.19,120.0" />
+
+	</scene>
+
+	<scene name="scene_Lavabo" title="Lavabo" onstart="" thumburl="panos/Lavabo.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="121.553" vlookat="27.018" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="42.478621" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Lavabo.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Lavabo.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+
+		<hotspot name="scene_1-hall" style="hs_circle" ath="-135.467" atv="5" linkedscene="scene_1-hall" tag="Hall" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Sala_de_estar_2" title="Sala de estar" onstart="" thumburl="panos/Sala_de_estar_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="535.069" vlookat="11.397" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Sala_de_estar_2.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Sala_de_estar_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="171.418" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="90.14,10.4,60.0" />
+
+	</scene>
+
+	<scene name="scene_Sala_de_jantar_2" title="Sala de jantar" onstart="" thumburl="panos/Sala_de_jantar_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Sala_de_jantar_2.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Sala_de_jantar_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="scene_1-hall" style="hs_circle" ath="-153.883" atv="5" linkedscene="scene_1-hall" tag="Hall" linkedscene_lookat="425.59,5.51,60.0" />
+		<hotspot name="scene_cozinha" style="hs_circle" ath="135.315" atv="5" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="96.39,4.41,60.0" />
+		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="-0.905" atv="5" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_lookat="0.0,0.0,120.0" />
+
+	</scene>
+
+	<scene name="scene_pbrea_de_servipno" title="�rea de servi�o" onstart="" thumburl="panos/pbrea_de_servipno.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="190.568" vlookat="27.330" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/pbrea_de_servipno.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/pbrea_de_servipno.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="scene_cozinha" style="hs_circle" ath="-93.548" atv="5" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="273.62,4.5,60.0" />
+
+	</scene>
+
+	<scene name="scene_Banheiro_1" title="Banheiro 1" onstart="" thumburl="panos/Banheiro_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Banheiro_1.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Banheiro_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Banheiro_2" title="Banheiro 2" onstart="" thumburl="panos/Banheiro_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Banheiro_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Banheiro_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Banho_master" title="Banho master" onstart="" thumburl="panos/Banho_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120.0" maxpixelzoom="2.0" fovmin="21.512042" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Banho_master.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Banho_master.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Circulapnpjo" title="Circulação" onstart="" thumburl="panos/Circulapnpjo.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="SFOV" fov="120.0" maxpixelzoom="2.0" fovmin="57.213559" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Circulapnpjo.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Circulapnpjo.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-2.795" atv="7.781" linkedscene="scene_suptte_master1" linkedscene_lookat="272.67,1.91,120.0" />
+
+	</scene>
+
+	<scene name="scene_Externa_Sala" title="Externa_Sala" onstart="" thumburl="panos/Externa_Sala.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="SFOV" fov="120.0" maxpixelzoom="2.0" fovmin="57.213559" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Externa_Sala.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Externa_Sala.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-1.788" atv="11.029" linkedscene="scene_sala_de_estar_2" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa_Suite_1" title="Externa_Suite 1" onstart="" thumburl="panos/Externa_Suite_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Externa_Suite_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa_Suite_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Externa_Suite_master" title="Externa_Suite master" onstart="" thumburl="panos/Externa_Suite_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Externa_Suite_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa_Suite_master.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Suite_1" title="Suite 1" onstart="" thumburl="panos/Suite_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Suite_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Suite_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Suptte_2" title="Suíte 2" onstart="" thumburl="panos/Suptte_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Suptte_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Suptte_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Suptte_master_2" title="Suíte master 2" onstart="" thumburl="panos/Suptte_master_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Suptte_master_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Suptte_master_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_Suptte_master1" title="Suíte master1" onstart="" thumburl="panos/Suptte_master1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="SFOV" fov="120.0" maxpixelzoom="2.0" fovmin="57.213559" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Suptte_master1.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Suptte_master1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+</krpano>
