@@ -92,7 +92,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="76.539" vlookat="6.091" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="76.539" vlookat="6.091" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/1-Hall.tiles/preview.jpg" />
 
@@ -110,7 +110,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="121.553" vlookat="27.018" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="42.478621" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="121.553" vlookat="27.018" fovtype="MFOV" fov="82.224181" maxpixelzoom="1.0" fovmin="82.224181" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Lavabo.tiles/preview.jpg" />
 
@@ -126,7 +126,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="535.069" vlookat="11.397" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="535.069" vlookat="11.397" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Sala_de_estar_2.tiles/preview.jpg" />
 
@@ -142,7 +142,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Sala_de_jantar_2.tiles/preview.jpg" />
 
@@ -161,7 +161,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="216.407" vlookat="19.200" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="216.407" vlookat="19.200" fovtype="MFOV" fov="80.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="80.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Cozinha.tiles/preview.jpg" />
 
@@ -178,7 +178,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Circulapnpjo.tiles/preview.jpg" />
 
@@ -189,6 +189,8 @@
 		<hotspot name="scene_suptte_2" style="hs_circle" ath="27.015" atv="5.000" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_lookat="4.46,31.48,60.0" />
 		<hotspot name="scene_suptte_master1" style="hs_circle" ath="-7.267" atv="5.649" linkedscene="scene_suptte_master1" tag="Suíte Master" linkedscene_lookat="289.34,4.81,60.0" />
 		<hotspot name="scene_suite_1" style="hs_circle" ath="-30.609" atv="5.270" linkedscene="scene_suite_1" tag="Suíte 1" linkedscene_lookat="-57.62,14.54,60.0" />
+		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="-167.017" atv="9.517" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="160.537" atv="10.248" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 	
@@ -210,7 +212,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="42.478621" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="82.224181" maxpixelzoom="1.0" fovmin="82.224181" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Banheiro_2.tiles/preview.jpg" />
 
@@ -282,7 +284,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suite_1.tiles/preview.jpg" />
 
@@ -290,13 +292,15 @@
 			<cube url="panos/Suite_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 
+		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="175.968" atv="10.401" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="0.0" use3dtransition="true" />
+
 	</scene>
 
 	<scene name="scene_Suptte_2" title="Suíte 2" onstart="" thumburl="panos/Suptte_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_2.tiles/preview.jpg" />
 
@@ -327,7 +331,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="60.0" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="285.163" vlookat="9.763" fovtype="MFOV" fov="100.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master1.tiles/preview.jpg" />
 
@@ -335,13 +339,15 @@
 			<cube url="panos/Suptte_master1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 
+		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="104.514" atv="7.199" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="0.0" use3dtransition="true" />
+
 	</scene>
 
 	<scene name="scene_pbrea_de_servipno" title="Área de Serviço" onstart="" thumburl="panos/pbrea_de_servipno.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="190.568" vlookat="27.330" fovtype="MFOV" fov="60.000" maxpixelzoom="2.0" fovmin="52.762443" fovmax="60.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="190.568" vlookat="27.330" fovtype="MFOV" fov="80.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="80.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/pbrea_de_servipno.tiles/preview.jpg" />
 
