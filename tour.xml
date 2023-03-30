@@ -218,6 +218,8 @@
 			<cube url="panos/Banheiro_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
+		<hotspot name="scene_suptte_2" style="hs_circle" ath="-60.567" atv="5.495" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_lookat="0.21,14.53,60.0" />
+
 	</scene>
 
 	<scene name="scene_Banho_master" title="Banho master" onstart="" thumburl="panos/Banho_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -302,8 +304,8 @@
 			<cube url="panos/Suptte_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="111.756" atv="9.765" linkedscene="scene_circulapnpjo" linkedscene_lookat="173.54,10.09,60.0" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="93.187" atv="9.398" linkedscene="scene_banheiro_2" linkedscene_lookat="228.66,17.71,60.0" />
+		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="111.756" atv="5.765" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_lookat="173.54,10.09,60.0" />
+		<hotspot name="scene_banheiro_2" style="hs_circle" ath="93.187" atv="5.398" linkedscene="scene_banheiro_2" tag="Banheiro 2" linkedscene_lookat="228.66,17.71,60.0" />
 
 	</scene>
 
