@@ -57,6 +57,8 @@
 	               design_thumbborder_bgroundedge="0"
 	               design_text_css="color:#FFFFFF; font-family:Arial;"
 	               design_text_txtshadow="1 1 4 0x000000 1.0"
+				   linkedscene_hoffset="0"
+					use3dtransition="true"
 	               />
 
 
@@ -261,7 +263,7 @@
 	       linkedscene=""
 	       linkedscene_lookat=""
 	       linkedscene_hoffset="0"
-	       use3dtransition="false"
+	       use3dtransition="true"
 	       onclick="skin_hotspotstyle_click();"
 	       depth="1000"
 	       scale="0.5"
@@ -1386,6 +1388,7 @@
 			removelayer('iphone_fullscreen_info');
 		);
 	</action>
-	
+
+
 
 </krpano>

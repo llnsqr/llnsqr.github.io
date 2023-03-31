@@ -30,6 +30,8 @@
         for(set(l,0), l LT layer.count, inc(l);,
             txtadd(layer[get(l)].ondown, get(layer[get(l)].ondown), ' select_hs();'););
     </action>
+	
+	
     
     <!-- Main Circle Hotspots Style, the one user sees right away -->
     
@@ -41,7 +43,7 @@
 		onover="select_hs(get(name));"
         onout=""
         onout.desktop="select_hs();"
-        onclick2="loadscene(get(name),null,MERGE,get(skin_settings.loadscene_blend));"
+		onclick2="skin_hotspotstyle_click()"
 		onclick="if(name != @selected_hs,
 					select_hs(get(name));
 					looktohotspot(get(name),get(view.fov));
@@ -135,5 +137,6 @@
             tween(hotspot[get(hs_img)].scale,0.28,0.3,easeoutcubic);
             tween(hotspot[get(hs_img)].alpha,0,0.3,easeoutcubic);
 	</action>  
-    
+	
+	    
 </krpano>    

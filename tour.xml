@@ -73,6 +73,8 @@
 	               design_thumbborder_bgroundedge="0"
 	               design_text_css="color:#FFFFFF; font-family:Arial;"
 	               design_text_shadow="1"
+				   linkedscene_hoffset=""
+					use3dtransition="true"
 	               />
 
 	<!--
@@ -97,12 +99,12 @@
 		<preview url="panos/1-Hall.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/1-Hall.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/1-Hall.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="scene_lavabo" style="hs_circle" ath="146.118" atv="5" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_lookat="0.0,0.0,120.0" />
-		<hotspot name="scene_cozinha" style="hs_circle" ath="97.321" atv="4.682" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="91.03,3.13,120.0" />
-		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="66.209" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="2.71,-1.12,120.0" />
+		<hotspot name="scene_lavabo" style="hs_circle" ath="146.118" atv="5" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_lookat="0.0,0.0,120.0"  linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_cozinha" style="hs_circle" ath="97.321" atv="4.682" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="91.03,3.13,120.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="66.209" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="2.71,-1.12,120.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 
@@ -115,7 +117,7 @@
 		<preview url="panos/Lavabo.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Lavabo.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+			<cube url="panos/Lavabo.tiles/pano_%s.jpg" />
 		</image>
 
 		<hotspot name="scene_1-hall" style="hs_circle" ath="-135.467" atv="5" linkedscene="scene_1-hall" tag="Hall" linkedscene_hoffset="0.0" use3dtransition="true" />
@@ -131,10 +133,10 @@
 		<preview url="panos/Sala_de_estar_2.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Sala_de_estar_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Sala_de_estar_2.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="171.418" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="90.14,10.4,60.0" />
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="171.418" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="90.14,10.4,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 
@@ -147,13 +149,13 @@
 		<preview url="panos/Sala_de_jantar_2.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Sala_de_jantar_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Sala_de_jantar_2.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="scene_1-hall" style="hs_circle" ath="-153.883" atv="5.000" linkedscene="scene_1-hall" tag="Hall" linkedscene_lookat="425.59,5.51,60.0" />
-		<hotspot name="scene_cozinha" style="hs_circle" ath="135.315" atv="5.000" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="96.39,4.41,60.0" />
-		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="-0.905" atv="5.000" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_lookat="0.0,0.0,120.0" />
-		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="56.949" atv="5" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_lookat="-6.08,6.24,60.0" />
+		<hotspot name="scene_1-hall" style="hs_circle" ath="-153.883" atv="5.000" linkedscene="scene_1-hall" tag="Hall" linkedscene_lookat="425.59,5.51,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_cozinha" style="hs_circle" ath="135.315" atv="5.000" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="96.39,4.41,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="-0.905" atv="5.000" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_lookat="0.0,0.0,120.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="56.949" atv="5" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_lookat="-6.08,6.24,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 	
@@ -166,11 +168,11 @@
 		<preview url="panos/Cozinha.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Cozinha.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Cozinha.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="-72.470" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="7.04,5.3,120.0" />
-		<hotspot name="scene_pbrea_de_servipno" style="hs_circle" ath="89.791" atv="4.993" linkedscene="scene_pbrea_de_servipno" tag="Área de Serviço" linkedscene_lookat="181.14,6.19,120.0" />
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="-72.470" atv="5" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="7.04,5.3,120.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_pbrea_de_servipno" style="hs_circle" ath="89.791" atv="4.993" linkedscene="scene_pbrea_de_servipno" tag="Área de Serviço" linkedscene_lookat="181.14,6.19,120.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 
@@ -183,11 +185,11 @@
 		<preview url="panos/Circulapnpjo.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Circulapnpjo.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Circulapnpjo.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_suptte_2" style="hs_circle" ath="27.015" atv="5.000" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_lookat="4.46,31.48,60.0" />
-		<hotspot name="scene_suptte_master1" style="hs_circle" ath="-7.267" atv="5.649" linkedscene="scene_suptte_master1" tag="Suíte Master" linkedscene_lookat="289.34,4.81,60.0" />
+		<hotspot name="scene_suptte_2" style="hs_circle" ath="27.015" atv="5.000" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_lookat="4.46,31.48,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_suptte_master1" style="hs_circle" ath="-7.267" atv="5.649" linkedscene="scene_suptte_master1" tag="Suíte Master" linkedscene_lookat="289.34,4.81,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 		<hotspot name="scene_suite_1" style="hs_circle" ath="-30.609" atv="5.270" linkedscene="scene_suite_1" tag="Suíte 1" linkedscene_lookat="-57.62,14.54,60.0" />
 		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="-167.017" atv="9.517" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_hoffset="0.0" use3dtransition="true" />
 		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="160.537" atv="10.248" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_hoffset="0.0" use3dtransition="true" />
@@ -203,7 +205,7 @@
 		<preview url="panos/Banheiro_1.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Banheiro_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+			<cube url="panos/Banheiro_1.tiles/pano_%s.jpg"  />
 		</image>
 
 	</scene>
@@ -217,10 +219,10 @@
 		<preview url="panos/Banheiro_2.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Banheiro_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+			<cube url="panos/Banheiro_2.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_suptte_2" style="hs_circle" ath="-60.567" atv="5.495" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_lookat="0.21,14.53,60.0" />
+		<hotspot name="scene_suptte_2" style="hs_circle" ath="-60.567" atv="5.495" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_lookat="0.21,14.53,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 
@@ -233,7 +235,7 @@
 		<preview url="panos/Banho_master.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Banho_master.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+			<cube url="panos/Banho_master.tiles/pano_%s.jpg"  />
 		</image>
 
 	</scene>
@@ -247,7 +249,7 @@
 		<preview url="panos/Externa_Sala.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Externa_Sala.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Externa_Sala.tiles/pano_%s.jpg"  />
 		</image>
 
 	</scene>
@@ -261,7 +263,7 @@
 		<preview url="panos/Externa_Suite_1.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Externa_Suite_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Externa_Suite_1.tiles/pano_%s.jpg"  />
 		</image>
 
 	</scene>
@@ -275,7 +277,7 @@
 		<preview url="panos/Externa_Suite_master.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Externa_Suite_master.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Externa_Suite_master.tiles/pano_%s.jpg"  />
 		</image>
 
 	</scene>
@@ -289,10 +291,10 @@
 		<preview url="panos/Suite_1.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Suite_1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Suite_1.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="175.968" atv="10.401" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="175.968" atv="10.401" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="0.0" use3dtransition="true"/>
 
 	</scene>
 
@@ -305,11 +307,11 @@
 		<preview url="panos/Suptte_2.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Suptte_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Suptte_2.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="111.756" atv="5.765" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_lookat="173.54,10.09,60.0" />
-		<hotspot name="scene_banheiro_2" style="hs_circle" ath="93.187" atv="5.398" linkedscene="scene_banheiro_2" tag="Banheiro 2" linkedscene_lookat="228.66,17.71,60.0" />
+		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="111.756" atv="5.765" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_lookat="173.54,10.09,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_banheiro_2" style="hs_circle" ath="93.187" atv="5.398" linkedscene="scene_banheiro_2" tag="Banheiro 2" linkedscene_lookat="228.66,17.71,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 
@@ -322,7 +324,7 @@
 		<preview url="panos/Suptte_master_2.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Suptte_master_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Suptte_master_2.tiles/pano_%s.jpg"  />
 		</image>
 
 	</scene>
@@ -336,7 +338,7 @@
 		<preview url="panos/Suptte_master1.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/Suptte_master1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/Suptte_master1.tiles/pano_%s.jpg"  />
 		</image>
 
 		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="104.514" atv="7.199" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="0.0" use3dtransition="true" />
@@ -352,10 +354,10 @@
 		<preview url="panos/pbrea_de_servipno.tiles/preview.jpg" />
 
 		<image prealign="null">
-			<cube url="panos/pbrea_de_servipno.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+			<cube url="panos/pbrea_de_servipno.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_cozinha" style="hs_circle" ath="-93.548" atv="5" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="273.62,4.5,60.0" />
+		<hotspot name="scene_cozinha" style="hs_circle" ath="-93.548" atv="5" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="273.62,4.5,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 
 	</scene>
 
