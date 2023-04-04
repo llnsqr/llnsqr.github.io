@@ -123,7 +123,7 @@
 		</image>
 
 		<hotspot name="scene_sala_de_jantar" style="hs_circle" ath="174.125" atv="5" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="10.09" use3dtransition="true" />
-		<hotspot name="scene_externa_sala" style="hs_circle" ath="-1.103" atv="5" linkedscene="scene_externa_sala" tag="Terraço Sala" linkedscene_hoffset="177.94" use3dtransition="true" />
+		<hotspot name="scene_externa_sala" style="hs_circle" ath="-1.103" atv="5" linkedscene="scene_externa_sala" tag="Terraço Descoberto" linkedscene_hoffset="177.94" use3dtransition="true" />
 
 	</scene>
 	
