@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<krpano version="1.21" title="Unique B">
+<krpano version="1.21" title="Cobertura Coluna 2">
 
 
 <include url="plugins/circle_hotspots.xml"/>
@@ -14,11 +14,11 @@
 
 	
 			
-	<layer name="logo" type="image" url="skin/Logo_cor.png" align="rightop" x="10" y="10" scale="0.2" alpha="1.0" keep="true">
+	<layer name="logo" type="image" url="skin/Logo_branca.png" align="rightop" x="10" y="10" scale="0.10" alpha="1.0" keep="true">
 		
 	</layer>
 	
-		<layer name="logo2" type="image" url="skin/Logo_progress.png" align="rightbottom" x="10" y="10" scale="0.2" alpha="0.7" keep="true">
+		<layer name="logo2" type="image" url="skin/Logo_progress.png" align="rightbottom" x="10" y="10" scale="0.2" alpha="0.5" keep="true">
 		
 	</layer>
 
