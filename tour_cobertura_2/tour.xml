@@ -298,7 +298,8 @@
 
 		<hotspot name="scene_externa_suite_master" style="hs_circle" ath="-90.651" atv="5.0" linkedscene="scene_externa_suite_master" tag="Terraço Descoberto" linkedscene_hoffset="363.51" use3dtransition="true" />
 		<hotspot name="scene_suptte_2" style="hs_circle" ath="6.254" atv="5.0" linkedscene="scene_suptte_2" tag="Suíte 2" linkedscene_hoffset="141.55" use3dtransition="true" />
-
+		<hotspot name="scene_externa_suite_1" style="hs_circle" ath="90" atv="5.0" linkedscene="scene_externa_suite_1" tag="Terraço Descoberto" linkedscene_hoffset="363.37" use3dtransition="true" />
+		
 	</scene>
 
 	<scene name="scene_Externa_Suite_master" title="Terraço Descoberto" onstart="" thumburl="panos/Externa_Suite_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
