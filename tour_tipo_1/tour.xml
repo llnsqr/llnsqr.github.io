@@ -94,7 +94,7 @@
 	
 
 	
-	<scene name="scene_1-Hall" title="Hall" onstart="" thumburl="panos/1-Hall.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+	<scene name="scene_1-Hall" title="Hall" onstart="" thumburl="panos/Hall.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="true" />
 
