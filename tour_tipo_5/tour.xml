@@ -8,7 +8,7 @@
 
 	<!-- background music -->
 	<plugin url="%VIEWER%/plugins/soundinterface.js" keep="true"
-		onloaded="playsound(bg, '%CURRENTXML%/plugins/bgmusic.mp3', true, 0.0);"
+		onloaded="playsound(bg, '%CURRENTXML%/plugins/bgmusic.mp3', true, 0.5);"
 		/>
 
 	
