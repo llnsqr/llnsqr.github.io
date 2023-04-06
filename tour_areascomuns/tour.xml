@@ -129,13 +129,13 @@
 
 	<scene name="scene_BOXS" title="Box" onstart="" thumburl="panos/BOXS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="90.0" maxpixelzoom="1.0" fovmin="100.45934" fovmax="90.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/BOXS.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/BOXS.tiles/pano_%s.jpg" />
 		</image>
 
@@ -156,7 +156,8 @@
 			<cube url="panos/BRICOLAGEM.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot2" style="hs_circle" ath="0.554" atv="4.219" linkedscene="scene_boxs"   tag="Box" linkedscene_hoffset="28.28" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="-30.554" atv="2.219" linkedscene="scene_boxs"   tag="Box" linkedscene_hoffset="28.28" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="178.484" atv="-3.515" linkedscene="scene_prapha" tag="Praça" linkedscene_hoffset="15.66" use3dtransition="true" />
 
 	</scene>
 
