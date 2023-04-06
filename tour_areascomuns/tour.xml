@@ -127,7 +127,7 @@
 
 	</scene>
 
-	<scene name="scene_BOXS" title="BOXS" onstart="" thumburl="panos/BOXS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+	<scene name="scene_BOXS" title="Box" onstart="" thumburl="panos/BOXS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
