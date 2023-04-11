@@ -256,10 +256,10 @@
 			<cube url="panos/Externa_Sala.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="spot4" style="hs_circle" ath="-97.087" atv="5.000" linkedscene="scene_externa_suite_master" tag="Varanda" linkedscene_hoffset="367.65" use3dtransition="true" />
+		
 		<hotspot name="spot1" style="hs_circle" ath="-7.594" atv="5.0" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_hoffset="181.39"  />
-		<hotspot name="spot2" style="hs_circle" ath="-83.733" atv="5.0" linkedscene="scene_suite_1" tag="Suíte 1" linkedscene_hoffset="0.0"  />
-		<hotspot name="spot3" style="hs_circle" ath="-88.429" atv="5.0" linkedscene="scene_suptte_master_2" tag="Suíte Master" linkedscene_hoffset="0.0"  />
+		<hotspot name="spot2" style="hs_circle" ath="-83.733" atv="5.0" linkedscene="scene_Externa_Suite_1" tag="Suíte 1" linkedscene_hoffset="0.0"  use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="-88.429" atv="5.0" linkedscene="scene_externa_suite_master" tag="Suíte Master" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -275,10 +275,9 @@
 			<cube url="panos/Externa_Suite_1.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="spot3" style="" ath="-91.793" atv="5.076" linkedscene="scene_externa_suite_master" tag="Varanda" linkedscene_hoffset="358.94" use3dtransition="true" />
 		<hotspot name="spot1" style="hs_circle" ath="-2.889" atv="5.291" linkedscene="scene_suite_1" tag="Suíte 1" linkedscene_hoffset="167.18"  />
-		<hotspot name="spot2" style="hs_circle" ath="96.559" atv="5.000" linkedscene="scene_externa_sala" tag="Varanda" linkedscene_hoffset="-7.65" use3dtransition="true" />
-		<hotspot name="spot4" style="hs_circle" ath="-73.130" atv="5.609" linkedscene="scene_suptte_master_2" tag="Suíte Master" linkedscene_hoffset="0.0" />
+		<hotspot name="spot2" style="hs_circle" ath="96.559" atv="5.000" linkedscene="scene_externa_sala" tag="Sala de Estar" linkedscene_hoffset="-7.65" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-73.130" atv="5.609" linkedscene="scene_externa_suite_master" tag="Suíte Master" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -295,8 +294,8 @@
 		</image>
 
 		<hotspot name="spot2" style="hs_circle" ath="-3.499" atv="5.000" linkedscene="scene_suptte_master_2" tag="Suíte Master" linkedscene_hoffset="22.99" />
-		<hotspot name="spot1" style="hs_circle" ath="87.148" atv="5.123" linkedscene="scene_Externa_Sala" tag="Varanda" linkedscene_hoffset="1.06" use3dtransition="true" />
-		<hotspot name="spot3" style="hs_circle" ath="70.762" atv="5.496" linkedscene="scene_suite_1" tag="Suíte 1" linkedscene_hoffset="0.0"  />
+		<hotspot name="spot1" style="hs_circle" ath="87.148" atv="5.123" linkedscene="scene_Externa_Sala" tag="Sala de Estar" linkedscene_hoffset="1.06" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="70.762" atv="5.496" linkedscene="scene_Externa_Suite_1" tag="Suíte 1" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 	
