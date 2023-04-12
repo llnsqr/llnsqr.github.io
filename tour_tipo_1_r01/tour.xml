@@ -133,9 +133,11 @@
 			<cube url="panos/Sala_de_estar_2.tiles/pano_%s.jpg"  />
 		</image>
 
-		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="171.418" atv="5.000" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="90.14,10.4,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_sala_de_jantar_2" style="hs_circle" ath="171.418" atv="4.000" linkedscene="scene_sala_de_jantar_2" tag="Sala de Jantar" linkedscene_lookat="90.14,10.4,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 		<hotspot name="spot2" style="hs_circle" ath="-6.203" atv="5.0" linkedscene="scene_externa_sala" tag="Varanda" linkedscene_hoffset="178.61" />
 		<hotspot name="spot1" style="hs_circle" ath="119.406" atv="5.0" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="219.18" />
+		<hotspot name="scene_1-hall" style="hs_circle" ath="-161.883" atv="4.000" linkedscene="scene_1-hall" tag="Hall" linkedscene_lookat="425.59,5.51,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_lavabo" style="hs_circle" ath="-167.883" atv="4" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_lookat="0.0,0.0,120.0" zoomto="130" linkedscene_hoffset="360.0" />
 
 	</scene>
 
@@ -151,10 +153,11 @@
 			<cube url="panos/Sala_de_jantar_2.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="scene_1-hall" style="hs_circle" ath="-153.883" atv="5.000" linkedscene="scene_1-hall" tag="Hall" linkedscene_lookat="425.59,5.51,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
+		<hotspot name="scene_1-hall" style="hs_circle" ath="-147.883" atv="5.000" linkedscene="scene_1-hall" tag="Hall" linkedscene_lookat="425.59,5.51,60.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 		<hotspot name="scene_cozinha" style="hs_circle" ath="135.315" atv="5.000" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_lookat="96.39,4.41,60.0" linkedscene_hoffset="360.0" />
 		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="-0.905" atv="5.000" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_lookat="0.0,0.0,120.0" linkedscene_hoffset="360.0" use3dtransition="true"/>
 		<hotspot name="scene_circulapnpjo" style="hs_circle" ath="56.949" atv="5" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_lookat="-6.08,6.24,60.0" linkedscene_hoffset="360.0" />
+		<hotspot name="scene_lavabo" style="hs_circle" ath="-163.883" atv="5" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_lookat="0.0,0.0,120.0" zoomto="130" linkedscene_hoffset="360.0" />
 
 	</scene>
 	
@@ -338,7 +341,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master_2.tiles/preview.jpg" />
 
@@ -355,7 +358,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="285.163" vlookat="9.763" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="285.163" vlookat="9.763" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master1.tiles/preview.jpg" />
 

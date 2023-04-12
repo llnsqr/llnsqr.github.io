@@ -173,9 +173,10 @@
 		</image>
 
 		<hotspot name="spot1" style="hs_circle" ath="71.149" atv="5.0" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="73.46"  />
-		<hotspot name="spot6" style="hs_circle" ath="117.114" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="27.96"  />
+		<hotspot name="spot6" style="hs_circle" ath="123.114" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="27.96"  />
 		<hotspot name="spot2" style="hs_circle" ath="-0.609" atv="5.0" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="22.97" use3dtransition="true" />
 		<hotspot name="spot3" style="hs_circle" ath="-42.646" atv="5.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="168.37"  />
+		<hotspot name="spot4" style="hs_circle" ath="117.255" atv="5.0" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_hoffset="325.69"  />
 
 	</scene>
 
@@ -195,6 +196,7 @@
 		<hotspot name="spot3" style="hs_circle" ath="-163.640" atv="5.0" linkedscene="scene_sala_de_estar_3" tag="Sala de Estar" linkedscene_hoffset="337.03" use3dtransition="true" />
 		<hotspot name="spot1" style="hs_circle" ath="-5.570" atv="5.0" linkedscene="scene_externa__sala_2" tag="Terraço Descoberto" linkedscene_hoffset="187.4"  />
 		<hotspot name="spot2" style="hs_circle" ath="-85.800" atv="5.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="180.0"  />
+		<hotspot name="spot5" style="hs_circle" ath="150.681" atv="4.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="379.06"  />
 
 	</scene>
 
@@ -391,13 +393,13 @@
 
 	<scene name="scene_Suite_master_2_2" title="Suite Master" onstart="" thumburl="panos/Suite_master_2_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suite_master_2_2.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/Suite_master_2_2.tiles/pano_%s.jpg" />
 		</image>
 
@@ -408,13 +410,13 @@
 
 	<scene name="scene_Suite_master_2" title="Suite Master" onstart="" thumburl="panos/Suite_master_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suite_master_2.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/Suite_master_2.tiles/pano_%s.jpg" />
 		</image>
 

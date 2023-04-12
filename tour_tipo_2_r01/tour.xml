@@ -119,6 +119,8 @@
 		<hotspot name="spot2" style="hs_circle" ath="-87.573" atv="5.0" linkedscene="scene_externa_sala" tag="Varanda" linkedscene_hoffset="259.98"  />
 		<hotspot name="spot1" style="hs_circle" ath="87.623" atv="5.0" linkedscene="scene_sala_de_jantar_4" tag="Sala de Jantar" linkedscene_hoffset="92.38" use3dtransition="true" />
 		<hotspot name="spot4" style="hs_circle" ath="-176.375" atv="5.0" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="525.46"  />
+		<hotspot name="spot3" style="hs_circle" ath="112.864" atv="5.0" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_hoffset="484.06"  />
+		<hotspot name="spot5" style="hs_circle" ath="30.415" atv="5.0" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="269.75"  />
 
 	</scene>
 
@@ -370,7 +372,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master.tiles/preview.jpg" />
 

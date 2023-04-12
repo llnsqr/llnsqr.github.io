@@ -116,6 +116,8 @@
 
 		<hotspot name="spot2" style="hs_circle" ath="-2.269" atv="5.0" linkedscene="scene_externa_sala" tag="Varanda" linkedscene_hoffset="180.09"  />
 		<hotspot name="spot3" style="hs_circle" ath="-178.704" atv="5.0" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="358.97" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-145.123" atv="5.0" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_hoffset="177.51"  />
+		<hotspot name="spot1" style="hs_circle" ath="-120.620" atv="5.0" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="114.76"  />
 
 	</scene>
 
@@ -286,7 +288,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
 
 		<preview url="panos/Quarto_1.tiles/preview.jpg" />
 
@@ -303,7 +305,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
 
 		<preview url="panos/Quarto_2.tiles/preview.jpg" />
 
@@ -320,7 +322,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master.tiles/preview.jpg" />
 

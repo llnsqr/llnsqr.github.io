@@ -145,18 +145,19 @@
 
 	<scene name="scene_Cozinha" title="Cozinha" onstart="" thumburl="panos/Cozinha.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Cozinha.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/Cozinha.tiles/pano_%s.jpg" />
 		</image>
 
 		<hotspot name="scene_sala_de_jantar" style="hs_circle" ath="174.048" atv="5" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="-38.18"  />
 		<hotspot name="scene_pbrea_de_servipno" style="hs_circle" ath="30.797" atv="5" linkedscene="scene_pbrea_de_servipno" tag="Área de Serviço" linkedscene_hoffset="-26.84" use3dtransition="true" />
+		<hotspot name="scene_sala_de_estar_2" style="hs_circle" ath="130.217" atv="7" linkedscene="scene_sala_de_estar_2" tag="Sala de Estar" linkedscene_hoffset="349.91" use3dtransition="true" />
 
 	</scene>
 	
@@ -418,13 +419,13 @@
 
 	<scene name="scene_Suptte_master" title="Suíte Master" onstart="" thumburl="panos/Suptte_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/Suptte_master.tiles/pano_%s.jpg" />
 		</image>
 
@@ -436,13 +437,13 @@
 
 	<scene name="scene_Suptte_master_" title="Suíte Master" onstart="" thumburl="panos/Suptte_master_.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/Suptte_master_.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/Suptte_master_.tiles/pano_%s.jpg" />
 		</image>
 
