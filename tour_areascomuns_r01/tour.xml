@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<krpano version="1.21" title="Áreas Comuns">
+
+	<include url="skin/vtourskin.xml" />
+	
+	<include url="plugins/circle_hotspots.xml"/>
+	
+			
+		<layer name="logo" type="image" url="skin/Logo_branca.png" align="rightop" x="10" y="10" scale="0.10" alpha="1.0" keep="true">
+		
+	</layer>
+	
+		<layer name="logo2" type="image" url="skin/Logo_progress.png" align="rightbottom" x="10" y="10" scale="0.2" alpha="0.5" keep="true">
+		
+	</layer>
+	
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="true"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	
+
+	<scene name="scene_PORTARIA" title="Portaria" onstart="" thumburl="panos/PORTARIA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.000" vlookat="0.000" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/PORTARIA.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/PORTARIA.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="33.582" atv="1.722" linkedscene="scene_jogos" tag="Salão de Jogos" linkedscene_hoffset="-14.6"  />
+		<hotspot name="spot2" style="hs_circle" ath="26.072" atv="-0.279" linkedscene="scene_academia" tag="Academia" linkedscene_hoffset="332.61"  />
+		<hotspot name="spot3" style="hs_circle" ath="26.089" atv="-6.888" linkedscene="scene_kids" tag="Espaço Kids" linkedscene_hoffset="38.42"  />
+		<hotspot name="spot4" style="hs_circle" ath="19.810" atv="-2.963" linkedscene="scene_prapha" tag="Praça" linkedscene_hoffset="139.13"  />
+		<hotspot name="spot5" style="hs_circle" ath="-17.976" atv="-2.887" linkedscene="scene_spa01" tag="Spa" linkedscene_hoffset="137.16"  />
+		<hotspot name="spot6" style="hs_circle" ath="-25.495" atv="-2.473" linkedscene="scene_festas" tag="Salão de Festas" linkedscene_hoffset="339.94"  />
+		<hotspot name="spot7" style="hs_circle" ath="-46.986" atv="0.307" linkedscene="scene_delivery" tag="Delivery" linkedscene_hoffset="301.54"  />
+
+	</scene>
+
+	<scene name="scene_ACADEMIA" title="Academia" onstart="" thumburl="panos/ACADEMIA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/ACADEMIA.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/ACADEMIA.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot3" style="hs_circle" ath="178.678" atv="2.119" linkedscene="scene_portaria" tag="Portaria" linkedscene_hoffset="27.39" />
+		<hotspot name="spot1" style="hs_circle" ath="-113.553" atv="5.586" linkedscene="scene_prapha" tag="Praça" linkedscene_hoffset="247.18" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="-152.567" atv="2.039" linkedscene="scene_piscina-rev-02a-recovered" tag="Piscina" linkedscene_hoffset="349.79" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-174.025" atv="1.063" linkedscene="scene_spa01" tag="Spa" linkedscene_hoffset="280.24" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_BOXS" title="Box" onstart="" thumburl="panos/BOXS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/BOXS.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/BOXS.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot6" style="hs_circle" ath="178.971" atv="-0.856" linkedscene="scene_prapha"  tag="Praça" linkedscene_hoffset="15.44" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="-151.164" atv="-1.092" linkedscene="scene_bricolagem"  tag="Bricolagem" linkedscene_hoffset="331.72" use3dtransition="true" />
+		
+	</scene>
+
+	<scene name="scene_BRICOLAGEM" title="Bricolagem" onstart="" thumburl="panos/BRICOLAGEM.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/BRICOLAGEM.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/BRICOLAGEM.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="-30.554" atv="2.219" linkedscene="scene_boxs"   tag="Box" linkedscene_hoffset="28.28" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="178.484" atv="-3.515" linkedscene="scene_prapha" tag="Praça" linkedscene_hoffset="15.66" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_CHURRASQUEIRA" title="Churrasqueira" onstart="" thumburl="panos/CHURRASQUEIRA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/CHURRASQUEIRA.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/CHURRASQUEIRA.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="163.474" atv="-1.480" linkedscene="scene_festas"  tag="Salão de Festas" linkedscene_hoffset="29.58" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="27.087" atv="-1.486" linkedscene="scene_spa01"  tag="Spa" linkedscene_hoffset="267.7" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="-0.585" atv="1.163" linkedscene="scene_piscina-rev-02a-recovered"  tag="Piscina" linkedscene_hoffset="303.74" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_COWORK" title="Coworking" onstart="" thumburl="panos/COWORK.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/COWORK.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/COWORK.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot3" style="hs_circle" ath="-123.676" atv="0.984" linkedscene="scene_jogos"  tag="Salão de Jogos"  linkedscene_hoffset="358.52" use3dtransition="true" />
+
+
+	</scene>
+
+	<scene name="scene_DELIVERY" title="Delivery" onstart="" thumburl="panos/DELIVERY.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="-284.344" vlookat="1.611" fovtype="MFOV" fov="120.000" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/DELIVERY.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/DELIVERY.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot8" style="hs_circle" ath="74.557" atv="1.041" linkedscene="scene_portaria" tag="Portaria" linkedscene_hoffset="58.46"  />
+
+	</scene>
+
+	<scene name="scene_FESTAS" title="Salão de Festas" onstart="" thumburl="panos/FESTAS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/FESTAS.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/FESTAS.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot7" style="hs_circle" ath="134.450" atv="-0.293" linkedscene="scene_portaria" tag="Portaria" linkedscene_hoffset="20.06"  />
+		<hotspot name="spot1" style="hs_circle" ath="13.053" atv="-1.139" linkedscene="scene_churrasqueira" tag="Churrasqueira" linkedscene_hoffset="330.42" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_JOGOS" title="Salão de Jogos" onstart="" thumburl="panos/JOGOS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/JOGOS.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/JOGOS.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="-161.019" atv="-0.301" linkedscene="scene_portaria"  tag="Portaria" linkedscene_hoffset="374.6"  />
+		<hotspot name="spot1" style="hs_circle" ath="54.844" atv="-0.366" linkedscene="scene_cowork" tag="Coworking" linkedscene_hoffset="1.48" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="119.199" atv="0.441" linkedscene="scene_cowork" tag="Coworking" linkedscene_hoffset="-62.96" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_KIDS" title="Espaço Kids" onstart="" thumburl="panos/KIDS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/KIDS.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/KIDS.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot4" style="hs_circle" ath="-115.494" atv="-0.867" linkedscene="scene_portaria" tag="Portaria" linkedscene_hoffset="321.58"  />
+
+	</scene>
+
+	<scene name="scene_PISCINA-REV-02a-Recovered" title="Piscina" onstart="" thumburl="panos/PISCINA-REV-02a-Recovered.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/PISCINA-REV-02a-Recovered.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/PISCINA-REV-02a-Recovered.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot4" style="hs_circle" ath="123.154" atv="-5.529" linkedscene="scene_churrasqueira" tag="Churrasqueira" linkedscene_hoffset="56.26" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="17.222" atv="-2.772" linkedscene="scene_academia" tag="Academia" linkedscene_hoffset="10.21" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="0.613" atv="-1.159" linkedscene="scene_prapha" tag="Praça" linkedscene_hoffset="184.1" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="54.694" atv="-1.363" linkedscene="scene_spa01" tag="Spa" linkedscene_hoffset="290.1" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_PRAphA" title="Praça" onstart="" thumburl="panos/PRAphA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/PRAphA.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/PRAphA.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot5" style="hs_circle" ath="-21.064" atv="-1.715" linkedscene="scene_portaria"  tag="Portaria" linkedscene_hoffset="220.87"  />
+		<hotspot name="spot2" style="hs_circle" ath="-46.376" atv="1.867" linkedscene="scene_academia"  tag="Academia" linkedscene_hoffset="112.82" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="-9.589" atv="-2.033" linkedscene="scene_spa01" tag="Spa" linkedscene_hoffset="90.87" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="4.718" atv="-0.801" linkedscene="scene_piscina-rev-02a-recovered" tag="Piscina" linkedscene_hoffset="175.9" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="14.408" atv="-1.204" linkedscene="scene_boxs" tag="Box" linkedscene_hoffset="344.56" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_SPA01" title="Spa" onstart="" thumburl="panos/SPA01.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/SPA01.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/SPA01.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot6" style="hs_circle" ath="-60.818" atv="-2.346" linkedscene="scene_portaria"  tag="Portaria" linkedscene_hoffset="222.84"  />
+		<hotspot name="spot5" style="hs_circle" ath="-73.789" atv="-0.654" linkedscene="scene_academia"  tag="Academia" linkedscene_hoffset="79.76" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="-98.717" atv="0.520" linkedscene="scene_prapha"  tag="Praça" linkedscene_hoffset="269.13" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="114.784" atv="-2.613" linkedscene="scene_churrasqueira"  tag="Churrasqueira" linkedscene_hoffset="92.3" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="164.796" atv="6.043" linkedscene="scene_piscina-rev-02a-recovered"  tag="Piscina" linkedscene_hoffset="69.9" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-122.500" atv="-1.732" linkedscene="scene_boxs"  tag="Box" linkedscene_hoffset="481.85" use3dtransition="true" />
+
+	</scene>
+
+
+</krpano>
