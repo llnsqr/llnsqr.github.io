@@ -236,23 +236,7 @@
 
 	</scene>
 	
-	<scene name="scene_Externa_pbrea_gourmet" title="Área Gourmet" onstart="" thumburl="panos/Externa_pbrea_gourmet.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
-
-		<preview url="panos/Externa_pbrea_gourmet.tiles/preview.jpg" />
-
-		<image>
-			<cube url="panos/Externa_pbrea_gourmet.tiles/pano_%s.jpg" />
-		</image>
-
-		<hotspot name="scene_externa_piscina" style="hs_circle" ath="-173.825" atv="5.0" linkedscene="scene_externa_piscina" tag="Piscina" linkedscene_hoffset="362.79" use3dtransition="true" />
-
-	</scene>
-	
-	<scene name="scene_Externa_Piscina" title="Piscina" onstart="" thumburl="panos/Externa_Piscina.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		<scene name="scene_Externa_Piscina" title="Piscina" onstart="" thumburl="panos/Externa_Piscina.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -270,7 +254,6 @@
 		<hotspot name="scene_externa_suite_2" style="hs_circle" ath="-88.1" atv="-0.0" linkedscene="scene_externa_suite_2" tag="Suíte 2" linkedscene_hoffset="360.53" use3dtransition="true" />
 		<hotspot name="scene_externa_suite_master" style="hs_circle" ath="-90.0" atv="-5" linkedscene="scene_externa_suite_master" tag="Suíte Master" linkedscene_hoffset="-8.52" use3dtransition="true" />
 		<hotspot name="scene_externa_canto" style="hs_circle" ath="-95.796" atv="0.0" linkedscene="scene_externa_canto"  tag="Terraço Descoberto" linkedscene_hoffset="368.52" use3dtransition="true" />
-		<hotspot name="scene_externa_pbrea_gourmet" style="hs_circle" ath="18.968" atv="5.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="-2.79" use3dtransition="true" />
 
 
 	</scene>
