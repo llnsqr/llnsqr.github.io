@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<krpano version="1.21" title="Cobertura Coluna 1">
+
+<include url="plugins/circle_hotspots.xml"/>
+
+	<include url="skin/vtourskin.xml" />
+	
+
+
+			
+	<layer name="logo" type="image" url="skin/Logo_branca.png" align="rightop" x="10" y="10" scale="0.10" alpha="1.0" keep="true">
+		
+	</layer>
+	
+		<layer name="logo2" type="image" url="skin/Logo_progress.png" align="rightbottom" x="10" y="10" scale="0.2" alpha="0.5" keep="true">
+		
+	</layer>
+
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="true"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	
+
+	<scene name="scene_Hall_2" title="Hall" onstart="" thumburl="panos/Hall_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Hall_2.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Hall_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="-12.137" atv="5.0" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="96.19"  />
+		<hotspot name="spot2" style="hs_circle" ath="-34.926" atv="5.0" linkedscene="scene_sala_de_estar_3" tag="Sala de Estar" linkedscene_hoffset="332.04" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="34.255" atv="5.0" linkedscene="scene_lavabo" tag="Lavabo" linkedscene_hoffset="325.69"  />
+		<hotspot name="spot4" style="hs_circle" ath="94.375" atv="5.0" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="-19.06"  />
+		<hotspot name="spot5" style="hs_circle" ath="112.575" atv="5.0" linkedscene="scene_suite_master_2" tag="Suíte Master" linkedscene_hoffset="-52.26"  />
+
+	</scene>
+	
+	<scene name="scene_Circulapnpjo" title="Circulação" onstart="" thumburl="panos/Circulapnpjo.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
+
+		<preview url="panos/Circulapnpjo.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Circulapnpjo.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot5" style="hs_circle" ath="-104.681" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="379.06"  />
+		<hotspot name="spot4" style="hs_circle" ath="-179.436" atv="5.0" linkedscene="scene_suite_master_2" tag="Suíte Master" linkedscene_hoffset="258.72"  />
+		<hotspot name="spot1" style="hs_circle" ath="-12.630" atv="5.0" linkedscene="scene_banho_social" tag="Banheiro Social" linkedscene_hoffset="330.07"  />
+		<hotspot name="spot2" style="hs_circle" ath="35.426" atv="5.0" linkedscene="scene_suptte_2_1" tag="Quarto 2" linkedscene_hoffset="154.42"  />
+		<hotspot name="spot3" style="hs_circle" ath="14.686" atv="5.0" linkedscene="scene_suptte_1" tag="Quarto 1" linkedscene_hoffset="124.67"  />
+
+	</scene>
+
+	<scene name="scene_Cozinha" title="Cozinha" onstart="" thumburl="panos/Cozinha.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
+
+		<preview url="panos/Cozinha.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Cozinha.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="-95.949" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="263.81"  />
+		<hotspot name="spot1" style="hs_circle" ath="-35.391" atv="5.0" linkedscene="scene_sala_de_estar_3" tag="Sala de Estar" linkedscene_hoffset="286.54"  />
+		<hotspot name="spot3" style="hs_circle" ath="15.545" atv="5.0" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="280.21"  />
+		<hotspot name="spot4" style="hs_circle" ath="93.015" atv="5.0" linkedscene="scene_pbrea_de_servipno" tag="Área de Serviço" linkedscene_hoffset="180.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Lavabo" title="Lavabo" onstart="" thumburl="panos/Lavabo.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="130" maxpixelzoom="off" fovmin="130" fovmax="130" limitview="auto" />
+
+		<preview url="panos/Lavabo.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Lavabo.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot4" style="hs_circle" ath="179.940" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="34.31"  />
+
+	</scene>
+
+	<scene name="scene_Sala_de_estar_3" title="Sala de Estar" onstart="" thumburl="panos/Sala_de_estar_3.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Sala_de_estar_3.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Sala_de_estar_3.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="71.149" atv="5.0" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="73.46"  />
+		<hotspot name="spot6" style="hs_circle" ath="117.114" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="27.96"  />
+		<hotspot name="spot2" style="hs_circle" ath="-0.609" atv="5.0" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="22.97" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="-42.646" atv="5.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="168.37"  />
+
+	</scene>
+
+	<scene name="scene_Sala_de_jantar" title="Sala de Jantar" onstart="" thumburl="panos/Sala_de_jantar.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+
+		<preview url="panos/Sala_de_jantar.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Sala_de_jantar.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot4" style="hs_circle" ath="115.753" atv="5.0" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="79.79"  />
+		<hotspot name="spot3" style="hs_circle" ath="-163.640" atv="5.0" linkedscene="scene_sala_de_estar_3" tag="Sala de Estar" linkedscene_hoffset="337.03" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="-5.570" atv="5.0" linkedscene="scene_externa__sala_2" tag="Terraço Descoberto" linkedscene_hoffset="187.4"  />
+		<hotspot name="spot2" style="hs_circle" ath="-85.800" atv="5.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="180.0"  />
+
+	</scene>
+
+	<scene name="scene_Banho_master" title="Banheiro Master" onstart="" thumburl="panos/Banho_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Banho_master.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Banho_master.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot3" style="hs_circle" ath="-118.953" atv="5.0" linkedscene="scene_suite_master_2" tag="Suíte Master" linkedscene_hoffset="475.68"  />
+
+	</scene>
+
+	<scene name="scene_Banho_social" title="Banheiro Social" onstart="" thumburl="panos/Banho_social.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
+
+		<preview url="panos/Banho_social.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Banho_social.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="137.438" atv="5.0" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="29.93"  />
+
+	</scene>
+
+
+	<scene name="scene_Externa__Quarto_1" title="Terraço Descoberto" onstart="" thumburl="panos/Externa__Quarto_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa__Quarto_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa__Quarto_1.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="-13.251" atv="5.0" linkedscene="scene_suptte_1" tag="Quarto 1" linkedscene_hoffset="366.24"  />
+		<hotspot name="spot1" style="hs_circle" ath="-78.434" atv="5.0" linkedscene="scene_externa__quarto_2" tag="Quarto 2" linkedscene_hoffset="362.57" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="87.016" atv="3.0" linkedscene="scene_externa_quina_2" tag="Terraço Descoberto" linkedscene_hoffset="82.89" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-85.298" atv="3.0" linkedscene="scene_externa_suite_master" tag="Suíte Master" linkedscene_hoffset="361.58" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="67.422" atv="5.0" linkedscene="scene_externa__terrapno" tag="Lounge" linkedscene_hoffset="211.57" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa__Quarto_2" title="Terraço Descoberto" onstart="" thumburl="panos/Externa__Quarto_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa__Quarto_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa__Quarto_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="1.765" atv="5.0" linkedscene="scene_suptte_2_1" tag="Quarto 2" linkedscene_hoffset="9.32"  />
+		<hotspot name="spot1" style="hs_circle" ath="-80.298" atv="5.0" linkedscene="scene_externa_suite_master" tag="Suíte Master" linkedscene_hoffset="361.58" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="75.138" atv="5.0" linkedscene="scene_externa__quarto_1" tag="Quarto 1" linkedscene_hoffset="-2.57" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="92.016" atv="3.0" linkedscene="scene_externa_quina_2" tag="Terraço Descoberto" linkedscene_hoffset="82.89" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="85.422" atv="4.0" linkedscene="scene_externa__terrapno" tag="Lounge" linkedscene_hoffset="211.57" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa__Sala_2" title="Terraço Descoberto" onstart="" thumburl="panos/Externa__Sala_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa__Sala_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa__Sala_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="74.800" atv="5.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="-44.42" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="1.834" atv="5.0" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar" linkedscene_hoffset="172.6"  />
+		<hotspot name="spot1" style="hs_circle" ath="-72.071" atv="5.0" linkedscene="scene_externa__pbrea_de_servipno_2" tag="Área de Serviço" linkedscene_hoffset="367.36" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-97.769" atv="5.0" linkedscene="scene_externa_quina_2" tag="Terraço Descoberto" linkedscene_hoffset="182.46" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="-82.422" atv="5.0" linkedscene="scene_externa__terrapno" tag="Lounge" linkedscene_hoffset="211.57" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa__Terrapno" title="Lounge" onstart="" thumburl="panos/Externa__Terrapno.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa__Terrapno.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa__Terrapno.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot3" style="hs_circle" ath="-54.857" atv="5.0" linkedscene="scene_externa__pbrea_de_servipno_2" tag="Área de Serviço" linkedscene_hoffset="148.43" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="59.769" atv="5.0" linkedscene="scene_externa_quina_2" tag="Terraço Descoberto" linkedscene_hoffset="182.46" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="119.097" atv="5.0" linkedscene="scene_externa__quarto_1" tag="Quarto 1" linkedscene_hoffset="277.11" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa__pbrea_de_servipno_2" title="Terraço Descoberto" onstart="" thumburl="panos/Externa__pbrea_de_servipno_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa__pbrea_de_servipno_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa__pbrea_de_servipno_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="-3.428" atv="5.0" linkedscene="scene_pbrea_de_servipno" tag="Área de Serviço" linkedscene_hoffset="96.46"  />
+		<hotspot name="spot1" style="hs_circle" ath="-71.422" atv="5.0" linkedscene="scene_externa__terrapno" tag="Lounge" linkedscene_hoffset="211.57" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="65.288" atv="5.0" linkedscene="scene_externa__sala_2" tag="Sala de Estar" linkedscene_hoffset="-7.36" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="84.800" atv="3.0" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="-44.42" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="-87.769" atv="5.0" linkedscene="scene_externa_quina_2" tag="Terraço Descoberto" linkedscene_hoffset="182.46" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa_Quina_2" title="Terraço Descoberto" onstart="" thumburl="panos/Externa_Quina_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa_Quina_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa_Quina_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="62.234" atv="5.0" linkedscene="scene_externa__terrapno" tag="Lounge" linkedscene_hoffset="177.54" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="-5.0" atv="5.0" linkedscene="scene_externa__quarto_1" tag="Quarto 1" linkedscene_hoffset="277.11" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="80.857" atv="3.0" linkedscene="scene_externa__pbrea_de_servipno_2" tag="Área de Serviço" linkedscene_hoffset="148.43" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="85.0" atv="2.0" linkedscene="scene_externa__sala_2" tag="Sala de Estar" linkedscene_hoffset="-7.36" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="85.0" atv="-2.5" linkedscene="scene_externa_pbrea_gourmet" tag="Área Gourmet" linkedscene_hoffset="-44.42" use3dtransition="true" />
+		<hotspot name="spot6" style="hs_circle" ath="-5.0" atv="0.5" linkedscene="scene_externa__quarto_2" tag="Quarto 2" linkedscene_hoffset="-1.58" use3dtransition="true" />
+		<hotspot name="spot7" style="hs_circle" ath="-5.0" atv="-4.0" linkedscene="scene_externa_suite_master" tag="Suíte Master" linkedscene_hoffset="361.58" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa_Suite_master" title="Terraço Descoberto" onstart="" thumburl="panos/Externa_Suite_master.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa_Suite_master.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa_Suite_master.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot3" style="hs_circle" ath="70.284" atv="5.0" linkedscene="scene_externa__quarto_2" tag="Quarto 2" linkedscene_hoffset="-1.58" use3dtransition="true" />
+		<hotspot name="spot4" style="hs_circle" ath="-9.518" atv="5.0" linkedscene="scene_suite_master_2_2" tag="Suíte Master" linkedscene_hoffset="108.56"  />
+		<hotspot name="spot1" style="hs_circle" ath="80.0" atv="3.0" linkedscene="scene_externa__quarto_1" tag="Quarto 1" linkedscene_hoffset="277.11" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="85.234" atv="2.0" linkedscene="scene_externa__terrapno" tag="Lounge" linkedscene_hoffset="177.54" use3dtransition="true" />
+		<hotspot name="spot5" style="hs_circle" ath="90.769" atv="1.0" linkedscene="scene_externa_quina_2" tag="Terraço Descoberto" linkedscene_hoffset="182.46" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_Externa_pbrea_gourmet" title="Área Gourmet" onstart="" thumburl="panos/Externa_pbrea_gourmet.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Externa_pbrea_gourmet.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Externa_pbrea_gourmet.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot4" style="hs_circle" ath="-54.275" atv="5.0" linkedscene="scene_sala_de_estar_3" tag="Sala de Estar"  linkedscene_hoffset="191.63"  />
+		<hotspot name="spot5" style="hs_circle" ath="-85.800" atv="5.0" linkedscene="scene_sala_de_jantar" tag="Sala de Jantar"  linkedscene_hoffset="180.0"  />
+		<hotspot name="spot1" style="hs_circle" ath="-149.620" atv="5.0" linkedscene="scene_externa__sala_2" tag="Terraço Descoberto"  linkedscene_hoffset="404.42" use3dtransition="true"  />
+
+	</scene>
+
+	<scene name="scene_Suite_master_2_2" title="Suite Master" onstart="" thumburl="panos/Suite_master_2_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+
+		<preview url="panos/Suite_master_2_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Suite_master_2_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot2" style="hs_circle" ath="106.745" atv="5.0" linkedscene="scene_suite_master_2" tag="Suíte Master" linkedscene_hoffset="76.56" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="-80.955" atv="5.0" linkedscene="scene_externa_suite_master" tag="Terraço Descoberto" linkedscene_hoffset="251.44"  />
+
+	</scene>
+
+	<scene name="scene_Suite_master_2" title="Suite Master" onstart="" thumburl="panos/Suite_master_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="off" fovmin="100" fovmax="100" limitview="auto" />
+
+		<preview url="panos/Suite_master_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Suite_master_2.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot6" style="hs_circle" ath="-119.690" atv="5.0" linkedscene="scene_hall_2" tag="Hall" linkedscene_hoffset="412.26"  />
+		<hotspot name="spot1" style="hs_circle" ath="3.302" atv="5.0" linkedscene="scene_suite_master_2_2" tag="Suíte Master" linkedscene_hoffset="283.44" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="176.730" atv="5.0" linkedscene="scene_banho_master" tag="Banheiro Master " linkedscene_hoffset="-115.68"  />
+		<hotspot name="spot3" style="hs_circle" ath="-100.720" atv="5.0" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="101.28"  />
+
+	</scene>
+
+	<scene name="scene_Suptte_1" title="Quarto 1" onstart="" thumburl="panos/Suptte_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110.0" maxpixelzoom="off" fovmin="110.0" fovmax="110.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/Suptte_1.tiles/preview.jpg" />
+
+		<image prealign="null">
+			<cube url="panos/Suptte_1.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot6" style="hs_circle" ath="-40.642" atv="5.0" linkedscene="scene_circulapnpjo"  tag="Circulação" linkedscene_hoffset="235.33"  />
+		<hotspot name="spot1" style="hs_circle" ath="172.989" atv="5.0" linkedscene="scene_externa__quarto_1"  tag="Terraço Descoberto" linkedscene_hoffset="-6.24"  />
+
+	</scene>
+
+	<scene name="scene_Suptte_2_1" title="Quarto 2" onstart="" thumburl="panos/Suptte_2_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="110" maxpixelzoom="off" fovmin="110" fovmax="110" limitview="auto" />
+
+		<preview url="panos/Suptte_2_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Suptte_2_1.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot3" style="hs_circle" ath="9.849" atv="5.0" linkedscene="scene_circulapnpjo" tag="Circulação" linkedscene_hoffset="205.58"  />
+		<hotspot name="spot1" style="hs_circle" ath="-168.917" atv="5.0" linkedscene="scene_externa__quarto_2" tag="Terraço Descoberto" linkedscene_hoffset="350.68"  />
+
+	</scene>
+
+	<scene name="scene_pbrea_de_servipno" title="Área de Serviço" onstart="" thumburl="panos/pbrea_de_servipno.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="off" fovmin="120" fovmax="120" limitview="auto" />
+
+		<preview url="panos/pbrea_de_servipno.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/pbrea_de_servipno.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot5" style="hs_circle" ath="93.015" atv="6.588" linkedscene="scene_cozinha" tag="Cozinha" linkedscene_hoffset="180.0" use3dtransition="true" />
+		<hotspot name="spot1" style="hs_circle" ath="-86.967" atv="5.597" linkedscene="scene_externa__pbrea_de_servipno_2" tag="Terraço Descoberto" linkedscene_hoffset="263.54"  />
+
+	</scene>
+
+
+</krpano>
