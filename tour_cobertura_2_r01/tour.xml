@@ -7,7 +7,7 @@
 	<include url="skin/vtourskin.xml" />
 	
 
-		<layer name="texto_vista" type="text"  align="lefttop" x="10" y="10" alpha="0.5" keep="true" bgalpha="0" css="font-family:Arial; font-size:16px; color:#000000;" text="Vistas meramente ilustrativas" >
+	<layer name="texto_vista" type="text"  align="lefttop" x="10" y="10" alpha="0.5" keep="true" bgalpha="0" css="font-family:Arial; font-size:16px; color:#000000;" text="Imagens, vistas e decorações meramente ilustrativas" >
 		
 	</layer>
 
