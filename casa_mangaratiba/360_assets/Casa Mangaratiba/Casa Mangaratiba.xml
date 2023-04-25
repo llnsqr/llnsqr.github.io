@@ -1,49 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
   <settings>
-    <preloader image="images/casa mangaratiba volumetrico_0.jpg?t=1682371065" />
-    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
-    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <preloader image="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0000.jpg?t=1682429595" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="false" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="false" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="true" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="150" />
     <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
   </settings>
   <hotspots />
   <images rows="1">
-    <image src="images/casa mangaratiba volumetrico_0.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_1.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_2.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_3.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_4.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_5.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_6.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_7.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_8.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_9.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_10.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_11.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_12.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_13.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_14.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_15.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_16.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_17.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_18.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_19.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_20.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_21.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_22.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_23.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_24.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_25.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_26.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_27.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_28.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_29.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_30.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_31.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_32.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_33.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_34.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_35.jpg?t=1682371065" />
-    <image src="images/casa mangaratiba volumetrico_36.jpg?t=1682371065" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0000.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0006.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0012.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0018.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0024.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0030.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0036.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0042.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0048.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0054.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0060.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0066.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0072.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0078.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0084.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0090.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0096.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0102.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0108.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0114.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0120.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0126.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0132.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0138.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0144.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0150.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0156.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0162.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0168.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0174.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0180.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0186.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0192.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0198.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0204.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0210.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0216.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0222.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0228.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0234.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0240.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0246.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0252.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0258.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0264.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0270.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0276.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0282.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0288.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0294.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0300.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0306.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0312.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0318.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0324.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0330.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0336.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0342.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0348.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0354.jpg?t=1682429595" />
+    <image src="images/373-02-CASA MANGARATIBA VOLUMETRICO 360_.RGB_color.0360.jpg?t=1682429595" />
   </images>
 </config>
