@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/373-002-04 FACHADA 360.RGB_color.0000.jpg?t=1690223628" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="200" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots />
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0000.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0000.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0012.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0012.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0024.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0024.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0036.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0036.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0048.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0048.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0060.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0060.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0072.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0072.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0084.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0084.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0096.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0096.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0108.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0108.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0120.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0120.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0132.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0132.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0144.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0144.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0156.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0156.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0168.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0168.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0180.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0180.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0192.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0192.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0204.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0204.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0216.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0216.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0228.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0228.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0240.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0240.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0252.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0252.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0264.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0264.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0276.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0276.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0288.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0288.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0300.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0300.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0312.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0312.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0324.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0324.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0336.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0336.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0348.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0348.jpg?t=1690223628" />
+    </image>
+    <image src="images/373-002-04 FACHADA 360.RGB_color.0360.jpg?t=1690223628">
+      <highres src="images/highres/373-002-04 FACHADA 360.RGB_color.0360.jpg?t=1690223628" />
+    </image>
+  </images>
+</config>
