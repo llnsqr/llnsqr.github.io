@@ -83,7 +83,7 @@
 			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V1_-_PREVIA_A.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="19.291" atv="0.878" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_previa_a" linkedscene_hoffset="338.44" use3dtransition="true" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="1.423" atv="4.795" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_previa_a" linkedscene_hoffset="355.62" use3dtransition="true" />
 
 	</scene>
 
@@ -99,8 +99,8 @@
 			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V2_-_PREVIA_A.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="177.734" atv="0.415" linkedscene="scene_257-07-01_loja_terreo_pano_v1_-_previa_a" linkedscene_hoffset="21.56" use3dtransition="true" />
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-52.753" atv="2.971" linkedscene="scene_257-07-01_loja_terreo_pano_v3_-_previa_a" linkedscene_hoffset="377.79" use3dtransition="true" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="177.042" atv="1.679" linkedscene="scene_257-07-01_loja_terreo_pano_v1_-_previa_a" linkedscene_hoffset="4.38" use3dtransition="true" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-55.760" atv="3.100" linkedscene="scene_257-07-01_loja_terreo_pano_v3_-_previa_a" linkedscene_hoffset="381.32" use3dtransition="true" />
 
 	</scene>
 
@@ -116,8 +116,8 @@
 			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V3_-_PREVIA_A.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="145.032" atv="2.853" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_previa_a" linkedscene_hoffset="-17.79" use3dtransition="true" />
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="2.299" atv="-0.413" linkedscene="scene_257-07-01_loja_terreo_pano_v4_-_previa_a" linkedscene_hoffset="-1.0" use3dtransition="true" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="145.558" atv="2.792" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_previa_a" linkedscene_hoffset="-21.32" use3dtransition="true" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="2.418" atv="1.902" linkedscene="scene_257-07-01_loja_terreo_pano_v4_-_previa_a" linkedscene_hoffset="63.0" use3dtransition="true" />
 
 	</scene>
 
@@ -133,8 +133,8 @@
 			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V4_-_PREVIA_A.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-178.704" atv="1.745" linkedscene="scene_257-07-01_loja_terreo_pano_v3_-_previa_a" linkedscene_hoffset="361.0" use3dtransition="true" />
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="1.095" atv="2.143" linkedscene="scene_257-07-01_loja_terreo_pano_v5_-_previa_a" linkedscene_hoffset="27.44" use3dtransition="true" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-114.581" atv="-1.330" linkedscene="scene_257-07-01_loja_terreo_pano_v3_-_previa_a" linkedscene_hoffset="297.0" use3dtransition="true" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-57.343" atv="0.027" linkedscene="scene_257-07-01_loja_terreo_pano_v5_-_previa_a" linkedscene_hoffset="86.56" use3dtransition="true" />
 
 	</scene>
 
@@ -150,7 +150,7 @@
 			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V5_-_PREVIA_A.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-151.462" atv="0.762" linkedscene="scene_257-07-01_loja_terreo_pano_v4_-_previa_a" linkedscene_hoffset="332.56" use3dtransition="true" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-150.785" atv="-2.945" linkedscene="scene_257-07-01_loja_terreo_pano_v4_-_previa_a" linkedscene_hoffset="273.44" use3dtransition="true" />
 
 	</scene>
 
