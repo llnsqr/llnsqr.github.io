@@ -80,13 +80,13 @@
         enabled="false"
         padding="5 25 5 25"
         bg="true"
-        bgalpha="0.5"
+        bgalpha="0"
         bgcolor="get:skin_settings.design_bgcolor"
         bgroundedge="5"
         onautosized="false"
         oversampling="3"
         mipmapping="2"
-        css="h1{font-family:Arial; font-weight:400; font-size:18px; color:#ffffff; margin:0px;}"
+        css="h1{font-family:Arial; font-weight:400; font-size:0px; color:#ffffff; margin:0px;}"
         />
 
 	<action name="select_hs">
