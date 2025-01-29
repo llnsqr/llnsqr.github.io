@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<krpano version="1.21" title="Zona Sul Catete">
+<krpano version="1.21" title="Supermercado Zona Sul Catete 194">
 
 	<include url="plugins/circle_hotspots.xml"/>
 
@@ -9,7 +9,8 @@
 		
 	</layer>
 
-		<layer name="logo" type="image" url="skin/Logo_branca.png" align="rightop" x="10" y="10" scale="0.10" alpha="1.0" keep="true">
+		<layer name="logo" type="text" align="righbottom" x="10" y="10" scale="0.10" alpha="1.0" bgalpha="0" keep="true"css="font-family:Arial; font-size:16px; color:#000000;" text="SCH. arquitetura + design
+" >
 		
 	</layer>
 	
