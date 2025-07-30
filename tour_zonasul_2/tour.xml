@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<krpano version="1.21" title="Supermercado Zona Sul Catete 194">
+
+	<include url="plugins/circle_hotspots.xml"/>
+
+	<include url="skin/vtourskin.xml" />
+	
+	
+		<layer name="logo" type="text" align="rightbottom" x="10" y="10" alpha="1.0" bgalpha="0" keep="true" css="font-family:Arial; font-size:16px; color:#000000;" text="SCH. arquitetura + design" >
+		
+	</layer>
+	
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="true"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.5"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+				   linkedscene_hoffset=""
+					use3dtransition="true"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	
+
+<scene name="scene_257-07-01_LOJA_TERREO_PANO_V1_-_FINAL_PP" title="Térreo - Vista 1" onstart="" thumburl="panos/257-07-01_LOJA_TERREO_PANO_V1_-_FINAL_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_TERREO_PANO_V1_-_FINAL_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V1_-_FINAL_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="20.791" atv="1.461" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_final_pp" linkedscene_lookat="0.0,0.0,120.0" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_TERREO_PANO_V2_-_FINAL_PP" title="Térreo - Vista 2" onstart="" thumburl="panos/257-07-01_LOJA_TERREO_PANO_V2_-_FINAL_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_TERREO_PANO_V2_-_FINAL_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V2_-_FINAL_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="178.961" atv="1.136" linkedscene="scene_257-07-01_loja_terreo_pano_v1_-_final_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="-8.803" atv="1.377" linkedscene="scene_257-07-01_loja_terreo_pano_v3_-_final_pp" linkedscene_lookat="14.33,1.49,120.0" />
+		<hotspot name="spot3" style="hs_circle" ath="12.071" atv="-6.620" linkedscene="scene_257-07-01_loja_1pav_pano_v1_-_previa_a_pp" linkedscene_lookat="-2.53,-0.09,120.0" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_TERREO_PANO_V3_-_FINAL_PP" title="Térreo - Vista 3" onstart="" thumburl="panos/257-07-01_LOJA_TERREO_PANO_V3_-_FINAL_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_TERREO_PANO_V3_-_FINAL_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V3_-_FINAL_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="167.406" atv="1.288" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_final_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="3.147" atv="1.137" linkedscene="scene_257-07-01_loja_terreo_pano_v4_-_final_pp" linkedscene_lookat="6.84,-3.05,120.0" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_TERREO_PANO_V4_-_FINAL_PP" title="Térreo - Vista 4" onstart="" thumburl="panos/257-07-01_LOJA_TERREO_PANO_V4_-_FINAL_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_TERREO_PANO_V4_-_FINAL_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V4_-_FINAL_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="-178.662" atv="2.096" linkedscene="scene_257-07-01_loja_terreo_pano_v3_-_final_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="3.445" atv="1.080" linkedscene="scene_257-07-01_loja_terreo_pano_v5_-_final_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_TERREO_PANO_V5_-_FINAL_PP" title="Térreo - Vista 5" onstart="" thumburl="panos/257-07-01_LOJA_TERREO_PANO_V5_-_FINAL_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_TERREO_PANO_V5_-_FINAL_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_TERREO_PANO_V5_-_FINAL_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="-152.527" atv="0.990" linkedscene="scene_257-07-01_loja_terreo_pano_v4_-_final_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+	
+	<scene name="scene_257-07-01_LOJA_1PAV_PANO_V1_-_PREVIA_A_PP" title="Pavimento Superior - Vista 1" onstart="" thumburl="panos/257-07-01_LOJA_1PAV_PANO_V1_-_PREVIA_A_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_1PAV_PANO_V1_-_PREVIA_A_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_1PAV_PANO_V1_-_PREVIA_A_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="43.173" atv="-1.579" linkedscene="scene_257-07-01_loja_1pav_pano_v2_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="-155.528" atv="-0.668" linkedscene="scene_257-07-01_loja_1pav_pano_v3_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot3" style="hs_circle" ath="-179.132" atv="6.803" linkedscene="scene_257-07-01_loja_terreo_pano_v2_-_final_pp" linkedscene_lookat="198.89,0.14,120.0" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_1PAV_PANO_V2_-_PREVIA_A_PP" title="Pavimento Superior - Vista 2" onstart="" thumburl="panos/257-07-01_LOJA_1PAV_PANO_V2_-_PREVIA_A_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_1PAV_PANO_V2_-_PREVIA_A_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_1PAV_PANO_V2_-_PREVIA_A_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="157.908" atv="-1.871" linkedscene="scene_257-07-01_loja_1pav_pano_v1_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_1PAV_PANO_V3_-_PREVIA_A_PP" title="Pavimento Superior - Vista 3" onstart="" thumburl="panos/257-07-01_LOJA_1PAV_PANO_V3_-_PREVIA_A_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_1PAV_PANO_V3_-_PREVIA_A_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_1PAV_PANO_V3_-_PREVIA_A_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="16.093" atv="1.421" linkedscene="scene_257-07-01_loja_1pav_pano_v1_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="172.524" atv="0.366" linkedscene="scene_257-07-01_loja_1pav_pano_v4_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_1PAV_PANO_V4_-_PREVIA_A_PP" title="Pavimento Superior - Vista 4" onstart="" thumburl="panos/257-07-01_LOJA_1PAV_PANO_V4_-_PREVIA_A_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		
+		<preview url="panos/257-07-01_LOJA_1PAV_PANO_V4_-_PREVIA_A_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_1PAV_PANO_V4_-_PREVIA_A_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="-18.287" atv="-1.028" linkedscene="scene_257-07-01_loja_1pav_pano_v3_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot2" style="hs_circle" ath="-158.503" atv="0.619" linkedscene="scene_257-07-01_loja_1pav_pano_v5_-_previa_a_pp" linkedscene_lookat="231.39,7.25,120.0" />
+
+	</scene>
+
+	<scene name="scene_257-07-01_LOJA_1PAV_PANO_V5_-_PREVIA_A_PP" title="Pavimento Superior - Vista 5" onstart="" thumburl="panos/257-07-01_LOJA_1PAV_PANO_V5_-_PREVIA_A_PP.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="true" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100.0" maxpixelzoom="off" fovmin="100.0" fovmax="100.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+
+		<preview url="panos/257-07-01_LOJA_1PAV_PANO_V5_-_PREVIA_A_PP.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/257-07-01_LOJA_1PAV_PANO_V5_-_PREVIA_A_PP.tiles/pano_%s.jpg" />
+		</image>
+
+		<hotspot name="spot1" style="hs_circle" ath="13.688" atv="4.725" linkedscene="scene_257-07-01_loja_1pav_pano_v4_-_previa_a_pp" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	
+
+
+</krpano>
